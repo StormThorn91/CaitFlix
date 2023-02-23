@@ -63,8 +63,6 @@ export function App() {
     const updateCurrentTVShow = (tvShow) => {
         setCurrentTvShow(tvShow)
     }
-
-    console.log(recommendationList);
     return (
         <div className={s.main_container}
             style={{
